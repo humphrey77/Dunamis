@@ -1,0 +1,317 @@
+body {
+    color: #000;
+}
+
+/* TOP BAR */
+.top-bar {
+    background: #0d6efd;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;   /* increase size */
+    font-weight: 600;
+}
+
+/* NAVBAR LINKS - BIGGER & BOLDER */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;   /* increase size */
+    font-weight: 600;    /* make bold */
+    margin-left: 15px;   /* spacing between links */
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT (optional but nice) */
+.navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+/* HERO FULL SCREEN */
+/* FORCE FULL HEIGHT */
+#heroCarousel,
+#heroCarousel .carousel-inner,
+#heroCarousel .carousel-item {
+    height: 100vh;
+}
+
+/* SLIDE BACKGROUND */
+.hero-slide {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.hero-slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* PERFECT CENTERING */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+/* BIG TEXT */
+.hero-content h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* CENTER CONTENT */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* BIG TEXT */
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* FEATURE BOX */
+.feature-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+.feature-box i {
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+/* SERVICE BOX */
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* SPECIALIZATION */
+.spec-box {
+    padding: 20px;
+    background: #20c997;
+    color: white;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+.footer-top {
+    background: #0d6efd;
+}
+
+/* FOOTER LINKS */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* for contact page */
+.hero-contact {
+    height: 50vh; /* half screen */
+    background: url('https://media.istockphoto.com/id/1477483038/photo/doctors-nurse-or-laptop-in-night-healthcare-planning-research-or-surgery-teamwork-in-wellness.jpg?s=612x612&w=0&k=20&c=zl6vZU339QIPVzSV6wUTW3kXVNFfcyz9QXzrZ9FBsD8=') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-contact::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5); /* overlay */
+}
+
+.hero-contact .hero-content {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* CONTACT SECTION IMPROVEMENT */
+.card {
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* for about page */
+/* HERO SECTION ABOUT US */
+.hero-about {
+    height: 50vh; /* half screen */
+    background: url('https://media.istockphoto.com/id/1477483038/photo/doctors-nurse-or-laptop-in-night-healthcare-planning-research-or-surgery-teamwork-in-wellness.jpg?s=612x612&w=0&k=20&c=zl6vZU339QIPVzSV6wUTW3kXVNFfcyz9QXzrZ9FBsD8=') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-about::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5); /* overlay */
+}
+
+.hero-about .hero-content {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* for services page */
+/* HERO SECTION SERVICES */
+.hero-services {
+    height: 50vh;
+    background: url('https://media.istockphoto.com/id/1477483038/photo/doctors-nurse-or-laptop-in-night-healthcare-planning-research-or-surgery-teamwork-in-wellness.jpg?s=612x612&w=0&k=20&c=zl6vZU339QIPVzSV6wUTW3kXVNFfcyz9QXzrZ9FBsD8=') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-services::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-services .hero-content {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* for gallery page */
+/* HERO SECTION */
+.hero-gallery {
+    height: 50vh;
+    background: url('https://media.istockphoto.com/id/1477483038/photo/doctors-nurse-or-laptop-in-night-healthcare-planning-research-or-surgery-teamwork-in-wellness.jpg?s=612x612&w=0&k=20&c=zl6vZU339QIPVzSV6wUTW3kXVNFfcyz9QXzrZ9FBsD8=') center/cover no-repeat;
+    position: relative;
+}
+
+.hero-gallery::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-gallery .hero-content {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* GALLERY IMAGES HOVER */
+.gallery-img {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.gallery-img:hover img {
+    transform: scale(1.1);
+}
+
+/* BACK TO TOP BUTTON STYLING */
+#backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    display: none; /* hidden by default */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3; /* darker blue on hover */
+    transform: scale(1.1);
+}
+
+/* HOVER EFFECT FOR FEATURE CARDS */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px); /* lift effect */
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3); /* bigger shadow on hover */
+}
+
+/* OPTIONAL: icon color change on hover */
+.card-hover:hover i {
+    color: #007bff; /* change icon color to blue */
+    transform: scale(1.2); /* slight icon grow */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
